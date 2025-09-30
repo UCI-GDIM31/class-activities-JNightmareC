@@ -4,7 +4,7 @@
 Hello World!
 
 ### W2
-Create future Devlog sub-headers with the three # symbols, then write your Devlogs below them.
+Basically what happens when the camera is no longer a parent of the cat anymore it becomes a static stand in place camera. It is no longer attached to the movement of the cat, thereby not allowing you to follow in any perspective of the character you are controling. It is similar to, for example, old Gary's mod animations, where you have control of the character but not the camera. When an object is not the child of another, it does not move with that parent, thereby staying complely stagnant in relation to the game object it was once attached to, or running a completly different type of code all together. they just disconect, parents are like a grouping tool that keep all movements together. 
 
 ## Open-Source Assets
 ### W1
