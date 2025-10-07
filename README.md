@@ -6,7 +6,9 @@ Basically what happens when the camera is no longer a parent of the cat anymore 
 
 
 ### W2
-The RGB variables are all floats instead of numbers because all of those values corrispond to each color values, including intencities, darkness, lighnes, and many other things. So all of those values need to be represented by more specsific values instead of whole numbers, hence the decimal float. The bounce variable is an int instead of any of those other variables because it is a whole number that corrisponds to the units in which a ball bounces up or down, you don't need fractional jumps in that instance. The error in that code for that section that unity made me aware of was that a semi colon was expected. 
+Question 1: The R, G, B variables are all floats instead of whole ints because all of those values corrispond to each color values, including intencities, darkness, lighness, and many other things. So all of those values need to be represented by more spescific values instead of just whole numbers, hence the decimal float. 
+Question 2: The bounce variable is an int instead of any of those other variables because it is a whole number that corrisponds to the units in which a ball bounces up or down, you don't need fractional jumps in that instance. 
+Question 3: The error in that code for that section that unity made me aware of was that a semi colon was expected. The only thing I needed to do in order to fix that issuse was just to add a semi colon at the end of that statement
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
