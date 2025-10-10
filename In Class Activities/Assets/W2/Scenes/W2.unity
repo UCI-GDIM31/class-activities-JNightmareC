@@ -644,6 +644,7 @@ GameObject:
   - component: {fileID: 1133153561}
   - component: {fileID: 1133153563}
   - component: {fileID: 1133153562}
+  - component: {fileID: 1133153564}
   m_Layer: 5
   m_Name: Text_Bounces
   m_TagString: Untagged
@@ -769,6 +770,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1133153560}
   m_CullTransparentMesh: 1
+--- !u!114 &1133153564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1133153560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb5c0fe2140494a8180893c8ac0ad003, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Ball
+  _bouncesText: {fileID: 1133153562}
+  _brightnessText: {fileID: 1949470243}
+  _spriteRenderer: {fileID: 421923809}
+  _rigidbody: {fileID: 421923812}
 --- !u!1 &1515363346
 GameObject:
   m_ObjectHideFlags: 0
