@@ -9,7 +9,15 @@ Basically what happens when the camera is no longer a parent of the cat anymore 
 Question 1: The R, G, B variables are all floats instead of whole ints because all of those values corrispond to each color values, including intencities, darkness, lighness, and many other things. So all of those values need to be represented by more spescific values instead of just whole numbers, hence the decimal float. 
 Question 2: The bounce variable is an int instead of any of those other variables because it is a whole number that corrisponds to the units in which a ball bounces up or down, you don't need fractional jumps in that instance. 
 Question 3: The error in that code for that section that unity made me aware of was that a semi colon was expected. The only thing I needed to do in order to fix that issuse was just to add a semi colon at the end of that statement
+
+### W3
+You would attribute the SetLightDimness to an intiger value, and then you would use a void return type. The reason it would be an int is because the sanity level goes up by whole numbers, attributed to santity (the perameter) which could also be linked to an integer. It is a void return type because the question states that the meathod does not require an output.
+
+1. Classes are like a music box, they are the external shell and format in which as song is placed inside. Everything can be built by the. Components are the pins and gears inside the Classes that define the music it plays. The member variables are the music sheets that change one note (or game object) at a time to really fine tune the sound. (I did no get to talk about this with my group, I had to so this individually since everyone left.)
+
+2. I did not get to this portion in the in class assignment.
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
-- Low-poly environment: https://assetstore.unity.com/packages/3d/environments/landscapes/low-poly-simple-nature-pack-162153 
+- Low-poly environment: https://assetstore.unity.com/packages/3d/environments/landscapes/low-poly-simple-nature-pack-162153 3
