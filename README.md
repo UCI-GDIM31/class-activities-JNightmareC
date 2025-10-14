@@ -11,11 +11,11 @@ Question 2: The bounce variable is an int instead of any of those other variable
 Question 3: The error in that code for that section that unity made me aware of was that a semi colon was expected. The only thing I needed to do in order to fix that issuse was just to add a semi colon at the end of that statement
 
 ### W3
-You would attribute the SetLightDimness to an intiger value, and then you would use a void return type. The reason it would be an int is because the sanity level goes up by whole numbers, attributed to santity (the perameter) which could also be linked to an integer. It is a void return type because the question states that the meathod does not require an output.
+1. You would attribute the SetLightDimness to an intiger value, and then you would use a void return type. The reason it would be an int is because the sanity level goes up by whole numbers, attributed to santity (the perameter) which could also be linked to an integer. It is a void return type because the question states that the meathod does not require an output.
 
-1. Classes are like a music box, they are the external shell and format in which as song is placed inside. Everything can be built by the. Components are the pins and gears inside the Classes that define the music it plays. The member variables are the music sheets that change one note (or game object) at a time to really fine tune the sound. (I did no get to talk about this with my group, I had to so this individually since everyone left.)
+2. Classes are like a music box, they are the external shell and format in which a song is placed inside. Components are the pins and gears inside the Classes that define the music it plays. The member variables are the music sheets that change one note (or game object) at a time to really fine tune the sound. All together they make a music box capable of being changes by many variables to sound different based on what the listener wants to hear. (I did no get to talk about this with my group, I had to so this individually since everyone left.)
 
-2. I did not get to this portion in the in class assignment.
+3. I think it gets extremely bright when it bounnces too many times because of the sussession of the bouncing driving up the average of both x and y velocities. The code is also tied to color values, so as the multiplyer gets pushed exponentially, so does the brightness of the color. Basically (from what I observed) The color just booms because of the velocity ramping up per the bouncing.
 
 ## Open-Source Assets
 ### W1
