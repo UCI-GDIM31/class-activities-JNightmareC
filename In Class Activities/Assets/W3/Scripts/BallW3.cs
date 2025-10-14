@@ -58,7 +58,6 @@ public class BallW3 : MonoBehaviour
         if (ave_speed > _speedThreshold)
         {
             return 1.5f;
-            Debug.Log("silly work now");
         }
         else
         {
