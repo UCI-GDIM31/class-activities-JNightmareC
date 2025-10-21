@@ -17,6 +17,11 @@ Question 3: The error in that code for that section that unity made me aware of 
 
 3. I think it gets extremely bright when it bounnces too many times because of the sussession of the bouncing driving up the average of both x and y velocities. The code is also tied to color values, so as the multiplyer gets pushed exponentially, so does the brightness of the color. Basically (from what I observed) The color just booms because of the velocity ramping up per the bouncing.
 
+
+
+### W4
+
+For line 17, _isGrounded is a boolean variable that is being defaulted to TRUE. Line 28 is an if funtion, that uses a comparison opperator. This comparison opperator tells us that if the player presses space, and they are grounded, it moves onto the block of code within itself. In line 32 the code is changing the member variables condition to false once the if statement is triggered. 
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
