@@ -22,6 +22,14 @@ Question 3: The error in that code for that section that unity made me aware of 
 ### W4
 
 For line 17, _isGrounded is a boolean member variable that is being defaulted to TRUE. Line 28 is an if funtion, that uses a comparison opperator. This comparison opperator tells us that if the player presses space, and they are grounded, it moves onto the block of code within itself. The member variable is GetKeyDown. In line 32 the code is changing the member variables condition to false once the if statement is triggered, this stops the player for jumping again as the _isGrounded condition is false now, now not completing the conditions for the if statement anymore.
+
+
+
+Table #15
+
+
+1. We were able to put a ridgedbody on the cat and soccer ball, along with the collider on both of them too, becasuse we want these two solid objects to interact. We want the cat to kick the ball, and we want the ball to move and be hit by the cat to make it to the goal. The ridgedbody is on both of them because we want them to be effected by physics and move. The "is trigger" is also on for the goal so that it is not physical and cant move, and also so it can be notified that it does make contact with the ball trigger, the goal does not have ridgedbody so that it doesn't move around, it's not supposed to move, it is only an interaction zone that can be entered. 
+2. The only thing that I had to fix was that I wasn't able to print the debug to the console. the reason we weren't able to is because we made an initial syntax error. We put a semi-colon after the "private void OnTriggerEnter(Collider goal)". 
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
