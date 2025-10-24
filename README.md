@@ -25,7 +25,7 @@ For line 17, _isGrounded is a boolean member variable that is being defaulted to
 
 
 
-Table #15
+I am in Table #15
 
 
 1. We were able to put a ridgedbody on the cat and soccer ball, along with the collider on both of them too, becasuse we want these two solid objects to interact. We want the cat to kick the ball, and we want the ball to move and be hit by the cat to make it to the goal. The ridgedbody is on both of them because we want them to be effected by physics and move. The "is trigger" is also on for the goal so that it is not physical and cant move, and also so it can be notified that it does make contact with the ball trigger, the goal does not have ridgedbody so that it doesn't move around, it's not supposed to move, it is only an interaction zone that can be entered. 
