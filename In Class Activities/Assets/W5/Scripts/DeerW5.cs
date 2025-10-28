@@ -20,6 +20,7 @@ public class DeerW5 : MonoBehaviour
     //make an updat function 
     void Start()
     {
+        NavMeshAgent agent = 
         Vector3 Target = new Vector3(31.533f, 1.05f, 20.966f);
         _target.SetDestination(Target);
     }
