@@ -30,6 +30,11 @@ I am in Table #15
 
 1. We were able to put a ridgedbody on the cat and soccer ball, along with the collider on both of them too, becasuse we want these two solid objects to interact. We want the cat to kick the ball, and we want the ball to move and be hit by the cat to make it to the goal. The ridgedbody is on both of them because we want them to be effected by physics and move. The "is trigger" is also on for the goal so that it is not physical and cant move, and also so it can be notified that it does make contact with the ball trigger, the goal does not have ridgedbody so that it doesn't move around, it's not supposed to move, it is only an interaction zone that can be entered. 
 2. The only thing that I had to fix was that I wasn't able to print the debug to the console. the reason we weren't able to is because we made an initial syntax error. We put a semi-colon after the "private void OnTriggerEnter(Collider goal)". 
+
+### W5
+
+A question that answered/ was interesting to me was how to know when update is called.
+It is random and we can't know when one is called before the other. as long as game object is enabled, it will all run in the same scene.
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
