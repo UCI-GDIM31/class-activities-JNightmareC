@@ -3690,9 +3690,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aec4dc8e091c94263b31ed5edd963f8d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DeerW5
-  _movespeed: 1
-  _deerPosition: {fileID: 0}
-  _target: {x: 0, y: 0, z: 0}
+  _destination: {fileID: 1977093713}
+  agent: {fileID: 8857729742412573074}
 --- !u!1 &8984736127648626612
 GameObject:
   m_ObjectHideFlags: 0
