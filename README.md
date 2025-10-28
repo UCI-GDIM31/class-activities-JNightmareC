@@ -35,6 +35,14 @@ I am in Table #15
 
 A question that answered/ was interesting to me was how to know when update is called.
 It is random and we can't know when one is called before the other. as long as game object is enabled, it will all run in the same scene.
+
+
+1. First we define the class as a deerW5 mono behavior
+
+2. To make the member variables of a deer class, we need; transform variables for movement (where you are going to) to be tuned with the inspector (tells deer where to move to), and the object that needs to be matched to move in the first place (the deer).
+
+3. Then we move onto the body, in which we need to start the deer with a place to go, we need it to get its own ability to make a  path. Then we make an update function, this must let the deer find whatever object you mark as it’s destination, and it must constantly try to reach it without stopping, hence the update function
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
