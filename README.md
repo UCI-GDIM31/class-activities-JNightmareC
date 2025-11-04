@@ -43,6 +43,26 @@ It is random and we can't know when one is called before the other. as long as g
 
 3. Then we move onto the body, in which we need to start the deer with a place to go, we need it to get its own ability to make a  path. Then we make an update function, this must let the deer find whatever object you mark as it’s destination, and it must constantly try to reach it without stopping, hence the update function
 
+
+### W6
+
+This is our catagory [assignment](https://docs.google.com/document/d/12El8B1DVwCrcYU4DHfi3xilsWEET20KrlgRqnEkWHi4/edit?usp=sharing)
+
+notes for pair programing done with Giovanni Solorio:
+
+- Make serialized value for speed 
+
+- Make a transform so the bats move
+Make a transform var for the player so we can keep track of them and move to their position later
+
+- Set it to 1 originally (the speed)
+
+- Use on enable to make the chasing true
+
+- Then make another function on disable turn off the chasing, this goes inside the void start so that they don't all immediately flock you as soon as the game starts, they will move once you get close to them
+
+- Then make a function that constantly updates your bats to go and fly to the player, this doesn't happen until the bats are triggered to move though
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
