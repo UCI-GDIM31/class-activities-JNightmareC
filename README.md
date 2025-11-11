@@ -68,6 +68,9 @@ Make a transform var for the player so we can keep track of them and move to the
 
 This is our game engineer plan [assignment](https://docs.google.com/document/d/12El8B1DVwCrcYU4DHfi3xilsWEET20KrlgRqnEkWHi4/edit?tab=t.n15fr0ty9u79)
 
+
+2. The issue with part two of the code was that it was using transform on the position as opposed to translating the movement. The problem with transforming the position is that it only moves the object in relation to the worlds grid space, instead of locally on the object. Translate moves the game obect in regards to the script that is attached to it specsifically. Position is general, translate is more specific on what exactly you are moving independantly. In this case we want the muskrat to move forwards and backwards relative to what direction and orientation it is facing, not nessissarally following the exact axis that the world is adhering by.
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
