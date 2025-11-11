@@ -63,6 +63,11 @@ Make a transform var for the player so we can keep track of them and move to the
 
 - Then make a function that constantly updates your bats to go and fly to the player, this doesn't happen until the bats are triggered to move though
 
+
+### W7
+
+This is our game engineer plan [assignment](https://docs.google.com/document/d/12El8B1DVwCrcYU4DHfi3xilsWEET20KrlgRqnEkWHi4/edit?tab=t.n15fr0ty9u79)
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
