@@ -71,7 +71,8 @@ public class MuskratW7 : MonoBehaviour
         //      bubble.
 
         //need to ask more questions on this
-         if (MathF.Abs(_rigidbody.linearVelocity.z) > 0.0f)
+
+         if (Math.Abs(forward + leftright) > 0)
         {
             _animator.SetBool("running", true);
 
